@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  etesync-web:
+    image: ghcr.io/infinityofspace/etesync-web:latest
+    container_name: etesync-web
+    restart: unless-stopped
+    ports:
+      - 80:80
+
